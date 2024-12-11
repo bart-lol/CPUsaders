@@ -1,1 +1,13 @@
+to runOpMode
+test 2024 02
+Put initialization blocks here
+call WaitForStart 
+if call opModelsActive
+do Put run blocks here
+repeat while call opModelsActive 
+do Put loop blocks here
+set LeftStickX to gamepad1 LeftStickX
+set LeftStickY to gamepad1 LeftStickY
+set backLeft Power to tgtPower
+set frontLeft Power to tgtPower
 
