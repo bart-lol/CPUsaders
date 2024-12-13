@@ -1,1 +1,20 @@
-
+to runOpMode
+MyFIRSTOpMode2
+Put initialization blocks here
+if call opModeinnit
+do Put run blocks here
+erpear while cal OpModesisactive
+do put loop blocks here
+set leftstickY to gamepad1 LeftStickY
+Set LeftSStickX to Gamepad1 LeftSickX
+Set RightStickX to gamepad2 RightstickX
+tgtPower to LeftStickY
+Set backLeft Power to tgtPower
+Set FrontLEft Power to tgtPower
+Set Frontright Power to tgtPower
+Set backRight Power to tgtPower
+Set frontLeft Power to absolute LeftStickY + - LeftStickX +- RightstickX
+Set backleft Power to absolute LeftStickY + - LeftStickX + - RIghtStickX  
+Set Frontright Power to LeftStickY + - Left StickX + - RightStickX
+Set BackRight Power to LeftStickY + - LeftSTickX + - RightStickX
+cal telemetru update
